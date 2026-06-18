@@ -1,1 +1,1 @@
-# Single-Electron-in-a-1D-Crystaline-Structure
+# Single Electron in a 2D Crystaline Structure
