@@ -92,7 +92,7 @@ pip install numpy matplotlib
 ### 1D solver
 
 ```bash
-python band_structure_1d.py
+python band_structure.py
 ```
 
 Produces `band_structure_1d.png` — band structure along the full Brillouin zone `[-π/a, π/a]`.
@@ -100,7 +100,7 @@ Produces `band_structure_1d.png` — band structure along the full Brillouin zon
 ### 2D solver
 
 ```bash
-python band_structure_2d.py
+python 2D_lattice.py
 ```
 
 Produces two figures:
