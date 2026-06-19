@@ -3,6 +3,8 @@
 
 Numerical simulation of the allowed electron energies in a periodic crystal, implemented via finite-difference discretization of the Schrödinger equation and Bloch boundary conditions. Produces band structure plots in 1D and 2D (square lattice), including a 3D energy surface of the first band.
 
+## See results and figures directly in the report (report.pdf) 
+
 ---
 
 ## Physics background
