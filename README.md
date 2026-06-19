@@ -66,8 +66,8 @@ For each k, `numpy.linalg.eigh` solves `H(k) ψ = E ψ`. It returns `N` (or `N²
 
 ```
 .
-├── band_structure_1d.py    # 1D solver
-├── band_structure_2d.py    # 2D solver (square lattice) + DOS + 3D surface
+├── band_structure.py    # 1D solver
+├── 2D_lattice.py    # 2D solver (square lattice) + 3D surface
 └── README.md
 ```
 
