@@ -105,7 +105,7 @@ python band_structure_2d.py
 
 Produces two figures:
 
-- `band_structure_2d.png` — band structure along `Γ → X → M → Γ` with DOS sidebar
+- `band_structure_2d.png` — band structure along `Γ → X → M → Γ`
 - `band_surface_2d.png` — 3D energy surface of the first band over the full BZ
 
 ---
@@ -131,7 +131,6 @@ Both scripts use reduced units `ℏ = m = a = 1`. Energies are in units of `ℏ�
 | `V0` | 5.0 | Potential strength. |
 | `nk` | 60 | k-points per path segment (Γ→X, X→M, M→Γ). |
 | `num_bands` | 8 | Number of bands to compute. |
-| `nk_dos` | 20 | k-points per direction for DOS calculation. |
 | `nk_surf` | 40 | k-points per direction for the 3D energy surface. |
 
 ### Effect of V₀/t
@@ -155,8 +154,6 @@ Since `t = ℏ²/(2mΔx²) = N²/2` (with `a=1`), increasing `N` increases `t` a
 
 - Each colored curve is one band `Eₙ(k)`
 - Gaps between curves are **forbidden energies** — no electron can have those energies in this crystal
-- **Flat regions** → electrons with low group velocity `dE/dk ≈ 0` (slow, heavy)
-- **Steep regions** → electrons with high group velocity (fast, light)
 - Band gaps are widest at the zone boundary (`k = ±π/a` in 1D, `X` and `M` points in 2D) where Bragg reflection is strongest
 - Band touching points indicate **degeneracy** enforced by crystal symmetry
 
